@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+function isLegalName(str){
+let regExp = /^[C|A|P]\d{4}[G|H|I|K|L|M]/;
+if (regExp.test(str)) alert("It is a legal name");
+else alert("It is illegal");
+}
+while (1) {
+var str = prompt("insert a string");
+isLegalName(str);
+}
+</script>
+</body>
+</html>
